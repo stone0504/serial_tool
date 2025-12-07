@@ -1,10 +1,9 @@
 import re
 import time
-from pathlib import Path
 import logging
 import serial
 from port_finder import PortFinder
-import port_finder
+
 
 # You can manually specify a port here, e.g.: MANUAL_PORT = '/dev/ttyUSB0' or MANUAL_PORT = 'COM3'
 # If set to None or empty string, it will automatically search from port_finder
